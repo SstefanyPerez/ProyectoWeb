@@ -1,7 +1,13 @@
-# SICU — Sistema de Información y Control Universitario
+# SICU — Sistema Integral de Comedor Universitario
 
 Prototipo no funcional desarrollado con React + Vite + TypeScript + Tailwind CSS.  
 Universidad Popular del Cesar.
+
+---
+
+## Demo en línea
+
+ https://sicuweb.vercel.app
 
 ---
 
@@ -33,6 +39,32 @@ npm run dev
 ```
 
 Abrir el navegador en: **http://localhost:5173**
+
+---
+
+## Build para producción
+
+```bash
+npm run build
+```
+
+Esto genera la carpeta `dist/`, que contiene la versión optimizada del proyecto lista para despliegue.
+
+---
+
+## Despliegue
+
+El proyecto fue desplegado utilizando **Vercel** mediante CLI:
+
+```bash
+npm install -g vercel
+vercel
+```
+
+Configuración utilizada:
+- Framework: Vite
+- Build command: `npm run build`
+- Output directory: `dist`
 
 ---
 
