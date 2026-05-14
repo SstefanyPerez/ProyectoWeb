@@ -26,7 +26,7 @@ Universidad Popular del Cesar.
 
 ```bash
 # 1. Clonar el repositorio
-git clone <url-del-repositorio>
+git clone https://github.com/SstefanyPerez/ProyectoWeb.git
 
 # 2. Entrar a la carpeta del proyecto
 cd Frontend
